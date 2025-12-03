@@ -51,13 +51,14 @@ function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#eef2ff] via-[#dbeafe] to-[#bfdbfe] p-4">
-      <div className="w-full max-w-md bg-white/90 backdrop-blur-md p-8 rounded-2xl shadow-xl">
+    <div className="min-h-screen pt-28 flex items-center justify-center bg-gradient-to-br from-blue-50 via-blue-100 to-blue-200 p-4">
+
+      <div className="w-full max-w-md bg-white/80 backdrop-blur-lg shadow-2xl p-8 rounded-3xl border border-white/40 animate-fadeIn">
         
         {/* Header */}
         <div className="text-center mb-6">
           <div className="flex justify-center mb-3">
-            <span className="text-5xl">🚌</span>
+            <span className="text-6xl animate-bounce">🚌</span>
           </div>
           <h1 className="text-3xl font-extrabold text-gray-800">Welcome Back</h1>
           <p className="text-gray-500">Login to continue your journey</p>
@@ -69,7 +70,7 @@ function Login() {
             <label className="font-medium">Email</label>
             <input
               type="email"
-              className="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              className="w-full border border-gray-300 p-3 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="you@example.com"
@@ -80,7 +81,7 @@ function Login() {
             <label className="font-medium">Password</label>
             <input
               type="password"
-              className="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              className="w-full border border-gray-300 p-3 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Enter your password"
@@ -89,14 +90,14 @@ function Login() {
 
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold shadow-md transition"
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl font-semibold shadow-md transition"
           >
             Login
           </button>
         </form>
 
         {/* Divider */}
-        <div className="flex items-center my-5">
+        <div className="flex items-center my-6">
           <div className="flex-1 h-px bg-gray-300"></div>
           <span className="mx-3 text-gray-500">or</span>
           <div className="flex-1 h-px bg-gray-300"></div>
