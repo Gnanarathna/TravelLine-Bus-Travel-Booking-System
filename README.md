@@ -6,20 +6,19 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Prerequisites](#prerequisites)
-- [Installation & Setup](#installation--setup)
-- [Docker Deployment](#docker-deployment)
-- [Project Structure](#project-structure)
-- [API Documentation](#api-documentation)
-- [Configuration](#configuration)
-- [Development](#development)
-- [Troubleshooting](#troubleshooting)
-- [Team & Contributors](#team--contributors)
-- [License](#license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [Prerequisites](#-prerequisites)
+- [Installation & Setup](#-installation--setup)
+- [Docker Deployment](#-docker-deployment)
+- [Project Structure](#-project-structure)
+- [API Documentation](#-api-documentation)
+- [Configuration](#️-configuration)
+- [Development](#-development)
+- [Troubleshooting](#-troubleshooting)
+- [Team & Contributors](#-team--contributors)
 
 ## 🎯 Overview
 
@@ -390,6 +389,7 @@ docker-compose build --no-cache
 - Institution: University of Plymouth
 - Submission Date: 23/01/2026
 
+---
 
 **Last Updated:** 2024  
 **Version:** 1.0.0  
