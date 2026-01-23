@@ -376,28 +376,20 @@ docker-compose build --no-cache
 ## 👥 Team & Contributors
 
 **Group 21**
-- Member 1 - Full-stack Development
-- Member 2 - Backend Development
-- Member 3 - Frontend Development
-- Member 4 - Database & DevOps
+- Member 1 - Login Authentication and Admin Panel
+- Member 2 - Manage the Projects and Project Dashboard
+- Member 3 - Manage Project Members
+- Member 4 - Manage Task and Kanban Board
+- Member 5 - Team Dashboard and Comment Section
+- Member 6 - Real Time Chat System
+- Member 7 - Notification System
+- Member 8 - Manage Files and Testing the System
 
 **Academic Information**
-- Course: PUSL3120 Assessment
-- Institution: University of Colombo
-- Submission Date: [Date]
+- Course: PUSL3120 Full-Stack Coursework
+- Institution: University of Plymouth
+- Submission Date: 23/01/2026
 
-## 📝 License
-
-This project is provided for educational purposes as part of PUSL3120 Assessment.
-
-## 📞 Support & Contact
-
-For issues, questions, or contributions:
-- Create an issue on GitHub
-- Contact the development team
-- Review the troubleshooting section
-
----
 
 **Last Updated:** 2024  
 **Version:** 1.0.0  
